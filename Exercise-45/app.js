@@ -9,8 +9,14 @@ function car(manufacturer, model_name,...x){
     for(let i=0; i<x.length;i++){
         car={...car,...x[i]}
     }
+
+    // for(let i=0; i<x.length; i++){
+    //     car[i]=x[i];
+    // }
+
     return car;
 }
 
-console.log(car("Alto", 2011,{color:"red",speed:120}))
+console.log(car('honda', 'accord',{year: 1991, color: 'white',
+    headlights: 'popup'}))
 
