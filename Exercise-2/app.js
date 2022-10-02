@@ -1,6 +1,12 @@
+/*Personal Message: Store a person’s name in a variable,and print a message to that person. 
+Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+*/
+
+
+let first_name="Humza";
+
 let message_El=document.getElementById("showMessage");
-let txt="";
-first_name = "humza";
-lowerCase_firstName=first_name.toLowerCase();
-upperCase_firstName=first_name.toUpperCase();
-message_El.innerText=`LowerCase: ${lowerCase_firstName} UpperCase: ${upperCase_firstName}`;
+
+message_El.innerText=`Hello ${first_name}, would you like to learn some Python today?`;
+
+console.log(`Hello ${first_name}, would you like to learn some Python today?`)

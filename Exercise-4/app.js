@@ -7,3 +7,5 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 let message_El=document.getElementById("showMessage");
 
 message_El.innerText=`Allama Iqbal once said, "Failure is not fatal until we surrender trying again is the key of glorious victory"`;
+
+console.log(`Allama Iqbal once said, "Failure is not fatal until we surrender trying again is the key of glorious victory"`);

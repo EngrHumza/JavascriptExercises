@@ -10,3 +10,5 @@ message="Failure is not fatal until we surrender trying again is the key of glor
 let message_el=document.getElementById("showMessage");
 
 message_el.innerText=`${famous_person} once said, ${message}`;
+
+console.log(`${famous_person} once said, ${message}`)

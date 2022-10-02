@@ -7,3 +7,5 @@ message="My Favorite Number is: " + favorite_number;
 let message_el=document.getElementById("showMessage");
 
 message_el.innerText=`${message}`;
+
+console.log(message);
