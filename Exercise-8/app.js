@@ -8,6 +8,17 @@ let addition = 5+3;
 
 message=addition;
 
+console.log("\n");
+console.log(message);
+console.log("\n");
+console.log(message);
+console.log("\n");
+console.log(message);
+console.log("\n");
+console.log(message);
+
+
+
 let message_el=document.getElementsByClassName("showMessage");
 
 // console.log(message_el);
