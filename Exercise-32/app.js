@@ -1,13 +1,23 @@
 // Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 // • Make a list of five or more usernames called current_users.
-let current_users = ["Humza", "Adil", "Talha", "Faisal", "Farhad"]
-
+let current_users = ["Humza", "Adil", "Talha", "Faisal", "Farhad"];
+for(let i=0; i<current_users.length; i++){
+    current_users[i]=current_users[i].toUpperCase();
+}
 // • Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
-let new_users = ["Humza", "Adil", "Ali", "Haider", "Haris"]
+let new_users = ["Humza", "Adil", "Ali", "Haider", "Haris"];
+for(let i=0; i<new_users.length; i++){
+    new_users[i]=new_users[i].toUpperCase();
+}
 
 // • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
 for(let i=0; i<new_users.length; i++){
-    
+    if(current_users.includes(new_users[i])){
+       console.log("the person will need to enter a new username");
+       }
+    else{
+       console.log("the username is available");
+    }
 }
 
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
