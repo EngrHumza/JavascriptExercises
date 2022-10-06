@@ -21,7 +21,8 @@ console.log(places);
 for(let i=places.length-1; i>=0; i--){
     reverse_order_places.push(places[i]);
 }
-console.log(reverse_order_places);
+reverse_order_places.sort();
+console.log(reverse_order_places.reverse());
 
 // • Show that your array is still in its original order by printing it again.
 console.log(places);
